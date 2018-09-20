@@ -1,0 +1,5 @@
++---------------------------+
+| Linux Useful Applications |
++---------------------------+
+
+vinagre - przeglądarka zdalnych pulpitów
