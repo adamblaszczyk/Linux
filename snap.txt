@@ -1,7 +1,49 @@
 +------+
 | snap |
 +------+
+https://snapcraft.io
 
 snap - uniwersalny system paczek dla różnych dystrybucji linuksa
+
+Działa na:
+- Arch Linux
+- Debian
+- elementary OS
+- Fedora
+- Gentoo
+- Linux Mint
+- Manjaro
+- OpenEmbedded/Yocto
+- openSUSE
+- OpenWrt
+- Pop!_OS
+- Solus
+- Raspbian
+- Ubuntu
+
+Instalacja (Debian / Linux Mint)
+=======================
+$ sudo apt install snapd
+
+Po instalacji w systemie działa demon 'snapd'
+
+Używanie snapa
+==============
+$ snap find hello
+- wyszukiwanie pakietów (snapów)
+$ sudo snap install hello
+- instalacja snapa -> /snap/bin
+$ snap run hello
+- uruchomienie snapa
+$ sudo snap refresh
+- aktualizuje wszystkie snapy
+$ snap list
+- wykaz zainstalowanych snapów
+$ sudo snap remove hello
+- usunięcie pakietu
+
+Linki
+=====
+https://tutorials.ubuntu.com/tutorial/basic-snap-usage-pl
 
 
