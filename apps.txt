@@ -2,4 +2,5 @@
 | Linux Useful Applications |
 +---------------------------+
 
-vinagre - przeglądarka zdalnych pulpitów
+atari800 - emulator 8-bitowego Atari XL/XE
+vinagre  - przeglądarka zdalnych pulpitów
