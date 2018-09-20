@@ -1,3 +1,7 @@
-snap - uniwersalny system paczek
-================================
++------+
+| snap |
++------+
+
+snap - uniwersalny system paczek dla różnych dystrybucji linuksa
+
 
