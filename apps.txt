@@ -2,5 +2,11 @@
 | Linux Useful Applications |
 +---------------------------+
 
-atari800 - emulator 8-bitowego Atari XL/XE
-vinagre  - przeglądarka zdalnych pulpitów
+atari800        - emulator 8-bitowego Atari XL/XE
+
+grub-customizer - graficzne narzędzie do konfiguracji GRUB-a
+    $ sudo add-apt-repository ppa:danielrichter2007/grub-customizer
+    $ sudo apt-get update
+    $ sudo apt-get install grub-customizer
+    
+vinagre         - przeglądarka zdalnych pulpitów
