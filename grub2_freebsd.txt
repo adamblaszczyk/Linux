@@ -4,7 +4,27 @@ Zainstalowany FreeBSD 12.0 na sda2 (ufs - partycja startowa) i sda5 (ufs)
 GRUB2 widzi tylko Linuksa, trzeba dodać wpis "FreeBSD 12.0"
 
 Wszystkie operacje wykonujemy na Linux Mint 19.1
-------------------------------------------------
+================================================
 
 1. Uaktywnienie GRUB-a przy starcie komputera
+
+/etc/default/grub
+-----------------
+zmieniamy
+
+GRUB_TIMEOUT_STYLE=hidden
+GRUB_TIMEOUT=0
+
+na
+
+#GRUB_TIMEOUT_STYLE=hidden
+GRUB_TIMEOUT=10
+
+$ sudo update-grub2
+
+2. Dodanie wpisu "FreeBSD 12.0"
+
+/etc/grub.d/40_custom
+---------------------
+dopisujemy na koncu
 
