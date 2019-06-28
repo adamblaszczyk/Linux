@@ -38,4 +38,28 @@ $ sudo update-grub2
 
 ================================================
 
+/boot/grub/grub.cfg - główny plik konfiguracyjny generowany przez skrypty
+/etc/default/grub - konfiguracja GRUB-a wyłączając listę systemów w menu (m.in. limit czasu)
+/etc/grub.d/ - katalog ze skryptami generującymi
+    05_debian_theme: ustawia tło, kolory tekstu, motyw graficzny 
+    10_hurd: lokalizuje jądra hurd 
+    10_linux: lokalizuje jądro Linuksa 
+    20_memtest86+: test pamięci 
+    30_os-prober: wyszukuje w każdej partycji systemów operacyjnych (Linux i inne) i integruje je w startowym menu 
+    40_custom: szablon do tworzenia niestandardowych elementów w menu dla innych systemów operacyjnych
+
+
+/dev/sda1  (hd0,1)
+/dev/sda2  (hd0,2)
+/dev/sda3  (hd0,3)
+
+/dev/sdb1  (hd1,1)
+/dev/sdb2  (hd1,2)
+/dev/sdb3  (hd1,3)
+
+ŹRÓDŁA:
+http://www.ulos.pl/grub2-szybkie-dodawanie-systemu-windows
+https://unix.stackexchange.com/questions/109272/add-freebsd-to-grub2-boot-menu
+
+
 
