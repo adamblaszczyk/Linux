@@ -22,9 +22,20 @@ GRUB_TIMEOUT=10
 
 $ sudo update-grub2
 
+
 2. Dodanie wpisu "FreeBSD 12.0"
 
 /etc/grub.d/40_custom
 ---------------------
-dopisujemy na koncu
+dopisujemy na końcu
+
+menuentry "FreeBSD 12.0" {
+  set root=(hd0,2)
+  kfreebsd /boot/loader
+}
+
+$ sudo update-grub2
+
+================================================
+
 
