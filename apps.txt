@@ -4,6 +4,8 @@
 
 atari800        - emulator 8-bitowego Atari XL/XE
 
+doublecmd       - Double Commander
+
 grub-customizer - graficzne narzędzie do konfiguracji GRUB-a
     $ sudo add-apt-repository ppa:danielrichter2007/grub-customizer
     $ sudo apt-get update
