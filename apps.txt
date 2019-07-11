@@ -12,3 +12,10 @@ grub-customizer - graficzne narzędzie do konfiguracji GRUB-a
     $ sudo apt-get install grub-customizer
     
 vinagre         - przeglądarka zdalnych pulpitów
+
+youtube-dl      - ściągane filmów z YT
+    $ youtube-dl -F https://www.youtube.com/watch?v=2CoSbDfBe2k
+    - ustalenie dostępnych formatów wideo i audio
+    $ youtube-dl -f 18 https://www.youtube.com/watch?v=2CoSbDfBe2k
+    - ściągnięcie filmu w odpowiednim formacie
+    https://youtube-dl.org/ <-- binarki, źródła, dokumentacja
