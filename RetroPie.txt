@@ -1,5 +1,12 @@
 Install Retropie on Debian/Ubuntu/Mint
 https://github.com/retropie/retropie-setup/wiki/Debian
 
+$ sudo apt-get update && sudo apt-get upgrade
+$ sudo apt-get install -y git dialog unzip xmlstarlet
+$ git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
+$ cd RetroPie-Setup
+$ sudo ./retropie_setup.sh
+>>> Basic install
+
 How To Install RetroPie On A PC - Desktop Or Laptop Old Or New
 https://www.youtube.com/watch?v=O_pivT9KxEg
