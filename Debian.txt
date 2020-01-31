@@ -5,11 +5,17 @@ Debian 10
 
 Po instalacji
 =============
-1. Usunąć (zahaszować) CD-ROM z pliku /etc/apt/sources.list
+1. Usunąć (zahaszować) CD-ROM z pliku /etc/apt/sources.list:
 
    # deb cdrom:[Debian GNU/Linux 10.2.0 _Buster_ - Official amd64 DVD Binary-1 20191116-09:57]/ buster contrib main
+   
+2. Uprawnienia do sudo
 
-2. Zezwolenie na root-a w połączenie zdalnym przez SSH
+   Dopisujemy w pliku /etc/sudoers:
+
+   adam  ALL=(ALL:ALL) ALL
+
+3. Zezwolenie na root-a w połączenie zdalnym przez SSH
 
    W pliku /etc/ssh/sshd_config zmieniamy:
    
